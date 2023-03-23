@@ -6,13 +6,16 @@ namespace InterfaceExercise
 		public double EngineSize { get; set; }
 		public string Make { get; set; }
 		public string Model { get; set; }
+		public int Year { get; set; }
 		public int SeatCount { get; set; }
 		public bool HasChangedGears { get; set; }
 
-		public void Drive();
+        public void Drive();
+		public void DriveDefault();
 		public void Reverse();
 		public void Park();
 		public void ChangeGears(bool isChnaged);
+
     }
 }
 

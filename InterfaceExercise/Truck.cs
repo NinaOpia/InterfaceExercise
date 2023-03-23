@@ -12,12 +12,13 @@ namespace InterfaceExercise
         public double EngineSize { get; set; } = 6;
         public string Make { get; set; } = "Ford";
         public string Model { get; set; } = "F150";
+        public int Year { get; set; } = 2021;
         public int SeatCount { get; set; } = 3;
         public string CompanyName { get; set; } = "Ford";
         public string Motto { get; set; } = "Built strong and reliable";
         public bool HasChangedGears { get; set; }
-
         public bool HasFourWheelDrive { get; set; } = true;
+        
 
         public void Drive()
         {

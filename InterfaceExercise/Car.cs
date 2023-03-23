@@ -12,6 +12,7 @@ namespace InterfaceExercise
         public double EngineSize { get; set; } = 5.0;
         public string Make { get; set; } = "Mercedez";
         public string Model { get; set; } = "C Class";
+        public int Year { get; set; } = 2023;
         public int SeatCount { get; set; } = 3;
         public string CompanyName { get; set; } = "Mercedez";
         public string Motto { get; set; } = "Built strong and reliable";
