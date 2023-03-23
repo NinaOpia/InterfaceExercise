@@ -58,6 +58,11 @@ namespace InterfaceExercise
         {
             return;
         }
+
+        public void DriveDefault()
+        {
+            return;
+        }
     }
 }
 

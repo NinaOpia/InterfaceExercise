@@ -13,6 +13,10 @@ namespace InterfaceExercise
 
             var vehicles = new List<IVehicle>() { car, truck };
 
+            vehicles.Add(car);
+            vehicles.Add(truck);
+
+
             foreach(var vehicle in vehicles)
             {
                 Console.WriteLine($"Year: {vehicle.Year} Make: {vehicle.Make} Model: {vehicle.Model}");
